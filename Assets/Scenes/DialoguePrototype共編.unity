@@ -853,13 +853,13 @@ MonoBehaviour:
   m_text: "\u8A2A\u8AC7\u7D00\u9304\u5DF2\u5EFA\u7ACB"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b0635eac04216a2499f62b12298891ce, type: 2}
-  m_sharedMaterial: {fileID: -5078315086546052072, guid: 55d7d67d71bad4d238e05b792dbb9cba, type: 2}
+  m_sharedMaterial: {fileID: -4047302726063594411, guid: b0635eac04216a2499f62b12298891ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292467161
+    rgba: 4283782485
   m_fontColor: {r: 0.33333334, g: 0.33333334, b: 0.33333334, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &664892819
@@ -1127,8 +1127,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.16078432, g: 0.21568628, b: 0.2784314, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a753fc1ad7dae43629523c100c48ec81, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1148,7 +1148,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 17.8, y: 10, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1292,13 +1292,13 @@ MonoBehaviour:
   m_text: "V \u8A2A\u8AC7\u7D50\u675F\uFF5C\u5DF2\u5B8C\u6210\u514B\u840A\u5152\u7684\u8A2A\u8AC7\u7D00\u9304"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b0635eac04216a2499f62b12298891ce, type: 2}
-  m_sharedMaterial: {fileID: -5078315086546052072, guid: 55d7d67d71bad4d238e05b792dbb9cba, type: 2}
+  m_sharedMaterial: {fileID: -4047302726063594411, guid: b0635eac04216a2499f62b12298891ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4290043378
+    rgba: 4279703319
   m_fontColor: {r: 0.09019608, g: 0.09019608, b: 0.09019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
