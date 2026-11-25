@@ -9,6 +9,9 @@ public class OfficeInteraction : MonoBehaviour
     [Header("調查終端機")]
     public GameObject computerPanel;
 
+    [Header("新手教學")]
+    public InvestigationTutorial investigationTutorial;
+
     private bool interviewCompleted = false;
 
     void Awake()
@@ -36,11 +39,13 @@ public class OfficeInteraction : MonoBehaviour
             return;
 
         computerPanel.SetActive(true);
+        investigationTutorial?.OnDocumentsOpened();
     }
 
     // 玩家點擊關閉按鈕
     public void CloseComputer()
     {
         computerPanel.SetActive(false);
+        investigationTutorial?.OnDocumentsClosed();
     }
 }

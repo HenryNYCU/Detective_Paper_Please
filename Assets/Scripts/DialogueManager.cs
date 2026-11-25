@@ -31,6 +31,12 @@ public class DialogueManager : MonoBehaviour
     [Range(5f, 100f)]
     public float charactersPerSecond = 30f;
 
+    [Header("辦公室互動")]
+    public OfficeInteraction officeInteraction;
+
+    [Header("居民角色")]
+    public GameObject residentPortrait;
+
     private int reputation = 50;
     private int justice = 50;
 
@@ -260,12 +266,20 @@ public class DialogueManager : MonoBehaviour
     {
         phase = DialoguePhase.Complete;
         continueIndicator.SetActive(false);
-
+        // 訪談結束後，隱藏居民角色
+        if (residentPortrait != null)
+        {
+            residentPortrait.SetActive(false);
+        }
+        
         // 隱藏居民對話框
         dialoguePanel.SetActive(false);
 
         // 顯示完成通知，觸發原有浮現動畫
         interviewEndPanel.SetActive(true);
+       
+        // 訪談結束後，開放文件堆互動
+        //officeInteraction.UnlockDocuments();
 
         Debug.Log(
             "克萊兒訪談完成。聲譽：" +
